@@ -13,7 +13,7 @@ public class KaboomCommand implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String str, String[] args) {
 		Player player = (Player) sender;
 		if(!player.hasPermission("hypixelkabom.kaboom")) {
-			player.sendMessage(ChatColor.RED + "You must be an admin or higher to use this command!");
+			player.sendMessage(ChatColor.RED + "You must be an ADMINISTRATOR or higher to use this command!");
 			return false;
 		}
 		
